@@ -38,12 +38,12 @@ export default function About() {
 
               {/* Main frame */}
               <div className="absolute inset-8 neon-border rounded-2xl overflow-hidden">
+              <div className="absolute inset-8 neon-border rounded-2xl overflow-hidden">
                 <div className="w-full h-full glass flex items-center justify-center flex-col gap-3">
                   <div className="text-6xl">🧠</div>
                   <p className="font-mono-custom text-[9px] text-slate-500 tracking-widest">YOUR PHOTO HERE</p>
-                  <p className="font-mono-custom text-[8px] text-slate-600">Replace 🧠 with &lt;img&gt;</p>
                 </div>
-              </div>
+              </div>              </div>
 
               {/* Corner dots */}
               {["-top-1 -left-1", "-top-1 -right-1", "-bottom-1 -left-1", "-bottom-1 -right-1"].map((pos, i) => (
