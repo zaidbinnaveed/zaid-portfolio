@@ -39,8 +39,7 @@ export default function About() {
               <div className="absolute inset-6 rounded-full border border-violet-500/30 animate-spin" style={{ animationDuration: "20s" }} />
               <div className="absolute inset-8 neon-border rounded-2xl overflow-hidden">
                 <div className="w-full h-full glass flex items-center justify-center flex-col gap-3">
-                  <div className="text-6xl">🧠</div>
-                  <p className="font-mono-custom text-[9px] text-slate-500 tracking-widest">YOUR PHOTO HERE</p>
+                  <img src="/photo.jpg" alt="Zaid Bin Naveed" className="w-full h-full object-cover rounded-xl" />
                 </div>
               </div>
               {["-top-1 -left-1", "-top-1 -right-1", "-bottom-1 -left-1", "-bottom-1 -right-1"].map((pos, i) => (
